@@ -1,0 +1,9 @@
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Debug\WinServiceBasic1.exe.config
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Debug\WinServiceBasic1.exe
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Debug\WinServiceBasic1.pdb
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.csprojResolveAssemblyReference.cache
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.exe
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.pdb
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.MyNewService.resources
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.csproj.GenerateResource.Cache
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Debug\WinServiceBasic1.ProjectInstaller.resources
