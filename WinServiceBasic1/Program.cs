@@ -5,6 +5,8 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Configuration;
+
 namespace WinServiceBasic1
 {
     static class Program

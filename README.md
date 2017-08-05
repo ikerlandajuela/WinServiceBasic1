@@ -2,89 +2,36 @@
 
 Servicio básico en Windows.
 
-Ver [C# WinServiceBasic1: Crear un servicio básico en Windows](https://ikerlandajuela.wordpress.com/2017/07/30/c-winservicebasic1-crear-un-servicio-basico-en-windows/)
+Ver: 
 
+* [C# WinServiceBasic1: Crear un servicio básico en Windows](https://ikerlandajuela.wordpress.com/2017/07/30/c-winservicebasic1-crear-un-servicio-basico-en-windows/)
+* 
 
+## Dependencias
 
-## Getting Started
+* [NLog](http://nlog-project.org/): versión 4.4.11 Instalado con PM en VS2012 
+* NLog.Config v4.4.11
+ 
+## Instalación
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+**Hay que copiar NLog.config, NLog.dll y WinServiceBasic1.exe.config con el ejecutable para que funcione.**
 
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Sistema [Semantic Versioning 2.0.0](http://semver.org/) 
 
 ## Authors
 
-* **Iker Landajuela** - *Initial work* - 
-
+* **Iker Landajuela <ikernaix@gmail.com>** - *Initial work* - 
 
 ## License
 
+* Ver LICENSE.md obtenida de GitHub [GPLv3.md](https://github.com/TheFox/GPLv3.md) 
 
-## Acknowledgments
+## Referencias
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* [MSDN Método EventLog.WriteEntry](https://msdn.microsoft.com/es-es/library/system.diagnostics.eventlog.writeentry(v=vs.110).aspx)
+* [C# WinServiceBasic1: Crear un servicio básico en Windows](https://ikerlandajuela.wordpress.com/2017/07/30/c-winservicebasic1-crear-un-servicio-basico-en-windows/)
+* [HarpyWar/windows-service-template](https://github.com/HarpyWar/windows-service-template): Windows service .NET project template with frequently used features
+* [ServiceStack/ServiceStack](https://github.com/ServiceStack/ServiceStack).
