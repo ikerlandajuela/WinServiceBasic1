@@ -1,3 +1,10 @@
+## 2017-08-07 v1.1.0
+
+**Autor: Iker Landajuela <ikernaix@gmail.com>**
+
+* Nueva clase WebServer con ejemplo servidor HTTP sencillo basada en HttpListener
+
+
 ## 2017-08-05 v1.0.1
 
 **Autor: Iker Landajuela <ikernaix@gmail.com>**
@@ -19,7 +26,6 @@
 `Install-Package NLog`
 
 `Install-Package NLog.Config`
-
 
 
 

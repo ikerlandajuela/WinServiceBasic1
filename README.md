@@ -5,7 +5,7 @@ Servicio básico en Windows.
 Ver: 
 
 * [C# WinServiceBasic1: Crear un servicio básico en Windows](https://ikerlandajuela.wordpress.com/2017/07/30/c-winservicebasic1-crear-un-servicio-basico-en-windows/)
-* 
+* [C# WinServiceBasic1 v1.0.1: Añadimos algunas mejoras al servicio](https://ikerlandajuela.wordpress.com/2017/08/05/c-winservicebasic1-v1-0-1-anadimos-algunas-mejoras-al-servicio/) 
 
 ## Dependencias
 

@@ -1,0 +1,11 @@
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\WinServiceBasic1.exe.config
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\NLog.config
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\WinServiceBasic1.exe
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\WinServiceBasic1.pdb
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\NLog.dll
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\bin\Release\NLog.xml
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Release\WinServiceBasic1.csprojResolveAssemblyReference.cache
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Release\WinServiceBasic1.WebServer.resources
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Release\WinServiceBasic1.csproj.GenerateResource.Cache
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Release\WinServiceBasic1.exe
+C:\Users\i.landajuela\Google Drive\Departamento Informática\src\c#\vs2012pro\apps_iker\WinServiceBasic1\WinServiceBasic1\obj\Release\WinServiceBasic1.pdb
