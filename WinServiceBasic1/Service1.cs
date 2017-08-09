@@ -12,6 +12,7 @@ using System.Configuration;
 using NLog;
 using System.Net;
 using System.Threading;
+using System.IO;
 
 namespace WinServiceBasic1
 {
@@ -57,13 +58,18 @@ namespace WinServiceBasic1
                     {
                         ThreadPool.QueueUserWorkItem((c) =>
                         {
-                            var ctx = c as HttpListenerContext;
+                            var ctx = c as HttpListenerContext;                            
+                            //HttpListenerResponse serverResponse = ctx.Request;
+                            // TODO Explorar como obtener parametros query URL GET con Context.Request.QueryString["name"];
+                            string name = ctx.Request.QueryString["name"];
+
                             try
                             {
                                 string rstr = _responderMethod(ctx.Request);
                                 byte[] buf = Encoding.UTF8.GetBytes(rstr);
                                 ctx.Response.ContentLength64 = buf.Length;
                                 ctx.Response.OutputStream.Write(buf, 0, buf.Length);
+                                ctx.Response.StatusCode = (int)HttpStatusCode.OK;
                             }
                             catch { } // suppress any exceptions
                             finally
@@ -103,7 +109,7 @@ namespace WinServiceBasic1
         protected override void OnStart(string[] args)
         {            
             string version = ConfigurationManager.AppSettings["version"];
-            WebServer ws = new WebServer(SendResponse, "http://localhost:8080/test/");
+            WebServer ws = new WebServer(SendResponse, "http://localhost:8080/");
 
             logger.Trace("OnStart version {0}",version);
            
@@ -121,6 +127,18 @@ namespace WinServiceBasic1
 
         public static string SendResponse(HttpListenerRequest request)
         {
+            logger.Trace("KeepAlive: {0}", request.KeepAlive);
+            logger.Trace("Local end point: {0}", request.LocalEndPoint.ToString());
+            logger.Trace("Remote end point: {0}", request.RemoteEndPoint.ToString());
+            logger.Trace("Is local? {0}", request.IsLocal);
+            logger.Trace("HTTP method: {0}", request.HttpMethod);
+            logger.Trace("Protocol version: {0}", request.ProtocolVersion);
+            logger.Trace("Is authenticated: {0}", request.IsAuthenticated);
+            logger.Trace("Is secure: {0}", request.IsSecureConnection);
+
+            // The HTTP request body is most probably filled up by the client for a HTTP post.
+            Stream requestBodyStream = request.InputStream;
+
             return string.Format("<HTML><BODY>My web page.<br>{0}</BODY></HTML>", DateTime.Now);
         }
     }

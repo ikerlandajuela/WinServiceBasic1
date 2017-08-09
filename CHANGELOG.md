@@ -1,3 +1,12 @@
+## 2017-08-07 v1.1.1
+
+**Autor: Iker Landajuela <ikernaix@gmail.com>**
+
+* `SendResponse`: Logeamos propiedad llamada cliente HTTP. Con `request.HttpMethod` obtenemos si es GET o POST.	
+* `Run`: Pruebas con context Request.QueryString para obtener parametros query URL GET
+* `Run`: Código HTTP respuesta con `ctx.Response.StatusCode = (int)HttpStatusCode.OK;`
+
+
 ## 2017-08-07 v1.1.0
 
 **Autor: Iker Landajuela <ikernaix@gmail.com>**
